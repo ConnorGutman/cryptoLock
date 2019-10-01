@@ -1,0 +1,23 @@
+{
+  "name": "cryptolock",
+  "version": "1.0.0",
+  "description": "Lock / Unlock something via Ethereum Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js",
+    "startDev": "babel-node index.js --presets es2015-node5,stage-3"
+  },
+  "author": "Connor G Gutman",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "ethers": "^4.0.37"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2"
+  }
+}
